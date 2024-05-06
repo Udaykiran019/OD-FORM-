@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OD request Form</title>
+    <link rel="stylesheet" href="form.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="overall-container">
+        <div class="title">On Duty Form</div>
+        <div class="main-grid">
+          <div class="form-container">
+            <label for="fullname" class="label-name">NAME&#x2a</label>
+            <input type="text" id="fullname" name="fullname" placeholder="First Name" class="input-field-fname">
+            <input type="text" id="fullname" placeholder="Last Name" class="input-field-lname">
+            <label for="rollnum" class="label-rollno">ROLL NUMBER&#x2a</label>
+            <input type="text" id="rollnum" name="rollnum" class="input-field-rollno" placeholder="Roll No">
+            <label for="dept" class="label-dept">DEPARTMENT&#x2a</label>
+            <input type="text" id="dept" name="dept" placeholder="Department name" class="input-field-dept">
+            <label for="phone" class="label-phone">PHONE NO&#x2a</label>
+            <input type="text" id="phone" name="phone" placeholder="91+ Phone Number" class="input-field-phone">
+            <label for="od-dates" class="label-dates">ON DUTY DATES&#x2a</label>
+            <input type="text" id="od-dates" name="od-dates" placeholder="From" class="input-field-fdates">
+            <input type="text" id="od-dates" name="od-dates" placeholder="To" class="input-field-tdates">
+            <label for="od-description" class="label-description">DRAFT</label>
+            <textarea id="od-description" name="od-description" placeholder="Please write your draft here" class="input-field-description" style="font-family: Platypi;"></textarea>
+            <div class="submit-btn-container">
+              <input type="submit" value="submit" class="submit-btn">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

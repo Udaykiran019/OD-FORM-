@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Platypi, Arial;
+  background: linear-gradient(to right, purple, pink);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 700px;
+  position: relative;
+  left: 410px;
+  top: 40px;
+  /* background-color: lightpink; */
+}
+
+.main-grid {
+  /* background-color: lightpink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  /* background-color: lightblue; */
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.overall-container {
+  background-color: white;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25); 
+}
+
+.label-name {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.input-field-fname,
+.input-field-lname,
+.input-field-fdates,
+.input-field-tdates {
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgba(0,0,0, 0.1);
+  padding: 12px 0px 12px 14px;
+  width: 243px;
+  margin-bottom: 24px;
+  border-radius: 6px;
+}
+
+.input-field-fname,
+.input-field-fdates {
+  margin-right: 35px;
+}
+
+.label-rollno,
+.label-dept,
+.label-phone,
+.label-dates,
+.label-description {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.input-field-rollno,
+.input-field-dept,
+.input-field-phone,
+.input-field-description{
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: rgba(0,0,0, 0.1);
+  padding: 12px 0px 12px 14px;
+  width: 542px;
+  margin-bottom: 24px;
+  border-radius: 6px;
+}
+
+
+::placeholder {
+  color: rgba(211, 211, 211, 1);
+  font-size: 14px;
+}
+
+.submit-btn {
+  display: block;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  border: none;
+  padding: 14px 18px 14px 18px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.submit-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
